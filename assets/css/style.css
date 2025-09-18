@@ -21,6 +21,10 @@ body {
     justify-content: center;
 }
 
+h1 {
+    color: var(--segunda-cor);
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -42,4 +46,44 @@ body {
     width: 10em;
     border: var(--segunda-cor);
     margin-left: 1em;
+}
+
+li {
+    background: var(--sexta-cor);
+    border: #9CA3AF;
+    border-radius: 10px;
+    list-style-type: none;
+    height: 2.5em;
+    width: 22.5em;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12.5em;
+    margin-bottom: 1em;
+}
+
+li .apagar{
+    background: var(--quarta-cor);
+    border: var(--terceira-cor);
+    border-radius: 5em;
+    color: var(--sexta-cor);
+    font-weight: bold;
+    height: 2em;
+    width: 1.5em;
+    margin-left: 30em;
+}
+.botao-itens:hover {
+    background-color: rgb(123, 71, 80);
+    color: var(--primeira-cor);
+    cursor: pointer;          
+    transform: scale(1.05);    
+    transition: 0.2s; 
+}
+
+.mensagem {
+    background: var(--quarta-cor);
+    color: var(--sexta-cor);
+    font-weight: bold;
+    border-radius: 8px;
+    width: 20em;
+   text-align: center;
 }
